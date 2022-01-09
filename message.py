@@ -27,7 +27,7 @@ while True:
                         .create(
                             body="Server is down",
                             from_='+17372048573',
-                            to='+37256966250'
+                            to='your_phone_number'
                         )
 
         second = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
